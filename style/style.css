@@ -2,24 +2,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
 
-
-
-
-
 * {
-    margin: 0px;
-    padding: 0px;
-
+    margin: 20px;
+    padding: 20px;
 }
+    
+    
+    
+html {
+    box-shadow: 0px 0px 20px 20px black;
+}
+
+
 body {
-    background-color: bisque;
+    background-image: url(../images/kisspng-black-and-white-wallpaper-mist-png-transparent-image-5a76687b389ec9.6518014115177094352319.png), url(../images/1667498658_1-mykaleidoscope-ru-p-draconian-the-marriage-of-attaris-instagra-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 0px 20px 20px black;
+    border-radius: 20px;
+   
+    
+    
 }
 h1, h3 {
     font-size: 5vw;
     text-align: center;
-    font-style: oblique;
     font-family: 'Pinyon Script', cursive;
     margin: 20px auto;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
 
 }
 .Box {
